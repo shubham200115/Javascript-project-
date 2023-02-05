@@ -1,0 +1,98 @@
+*{
+    margin: 0pc;
+    padding: 0pc;
+}
+.MainDIV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ABC{
+    border: 1px solid rgba(232,232,232,255);
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 5px 5px 5px rgba(232,232,232,255);
+    width: 600px;
+}
+#F-movie , #Name , #Value{
+    border-top: 0pc;
+    border-left: 0pc;
+    border-right: 0pc;
+
+}
+#Empty{
+    border: 1px solid rgba(232,232,232,255);
+    padding: 50px;
+    margin: 50px;
+    box-shadow:  5px 5px 5px rgba(232,232,232,255);
+    width: 600px;
+
+}
+#F-movie{
+    width: 100%;
+}
+.Container{
+    margin-bottom: 50px;
+}
+
+.Container1{
+display :flex;
+}
+
+.INFORMATION{
+    width: 400px;
+}
+.INFORMATION1{
+    width: 400px;
+}
+
+#btn{
+background-color: rgba(254,7,98,255);
+ color: white;
+margin-top: 50px;
+width: 150px;
+border: 0px;
+border-radius: 10px;
+
+height: 50px;
+}
+#btn:hover{
+
+}
+
+.Search{
+    border: 1px solid rgba(232,232,232,255);
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 5px 5px 5px rgba(232,232,232,255);
+    width: 600px;
+}
+
+#Filter{
+    border-top: 0pc;
+    border-left: 0pc;
+    border-right: 0pc;
+    width: 100%;
+}
+
+#btn1{
+    background-color: rgba(254,7,98,255);
+ color: white;
+margin-top: 50px;
+width: 150px;
+border: 0px;
+border-radius: 10px;
+
+height: 50px;
+}
+#dButton{
+background-color: rgba(254,7,98,255);
+color: white;
+margin-top: 10px;
+margin-left: 20px;
+width: 80px;
+border: 0px;
+border-radius: 5px;
+height: 25px;
+}
+
