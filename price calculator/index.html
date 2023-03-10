@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.in{
+    display: flex;
+}
+.te{
+    font-weight: 600;
+}
+</style>
+<h2 class="text-center">Calculator</h2>
+<div class="container">
+<div class="c" style="border: 2px solid black;">
+<div class="row">
+<div class="col-sm-12 d-flex" style="justify-content: space-evenly ;">
+<p class="te">Enter number of pages</p>
+<input type="number" class="te" value="" id="number" placeholder="Number of Pages" style="text-align: center;">
+</div>
+</div>
+<div class="in" style="justify-content: space-evenly ;">
+<p class="te">Interior</p>
+<select class="te" name="Interior" value="" id="int" style="padding: 0px 59px ;">
+<option class="te" value="0">Please Select</option>
+<option class="te" value="5" id="bw">Black &amp; White</option>
+<option class="te" value="7" id="col">Colour</option>
+</select>
+</div>
+<div class="col-sm-12 d-flex" style="justify-content: space-evenly ;">
+<p class="te">Binding Type</p>
+<select class="te" name="Binding Type" value="" id="bit" style="padding:0px 68px ;">
+<option value="0">Please Select</option>
+<option class="te" id="hb" value="5">Hardbound</option>
+<option class="te" id="pb" value="10">Paperback</option>
+</select>
+</div>
+<div class="col-sm-12 d-flex" style="justify-content: space-evenly ;">
+<p class="te">Book Size</p>
+<select class="te" name="Book Size" value="" id="bs" style="padding:0px 63px ;">
+<option class="te" value="0">Please Select</option>
+<option class="te" id="xs" value="5">5 X 8</option>
+<option class="te" id="sm" value="7">5.5 * 8.5</option>
+<option class="te" id="md" value="10">6 X 9</option>
+<option class="te" id="lg" value="12">7.25 X 9.5</option>
+<option class="te" id="xl" value="15">8.5 X 11</option>
+</select>
+</div>
+<div class="col-sm-12 d-flex" style="justify-content: space-evenly ;">
+<p class="te">Paper Type</p>
+<select class="te" name="Paper Type" value="" id="pt" style="text-align: center;">
+<option class="te" value="0" placeholder="Please Select">Please select
+</option><option class="te" id="ns" value="10">Natural Shade/Off-white Paper</option>
+<option class="te" id="wp" value="20">White Paper</option>
+<option class="te" id="ap" value="30">Art paper</option>
+</select>
+</div>
+</div>
+<div class="col-sm-12">
+<h3 class="te">MRP <span id="result"></span></h3>
+<input class="te" id="submitBtn" type="submit" value="Calculate Cost" ></div>
+  <br>   
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
